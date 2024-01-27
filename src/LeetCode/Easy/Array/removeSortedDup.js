@@ -1,3 +1,6 @@
+// 1, 1, 2, 3 
+// if 1 != 1 increment count and manipulate the array and put that i in k index of array
+
 const removeDuplicates = function (nums) {
 
     let k = 0;
@@ -15,3 +18,5 @@ const removeDuplicates = function (nums) {
     return k
 
 };
+
+const length = removeDuplicates([1,1,2,2])
